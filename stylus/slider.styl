@@ -1,0 +1,85 @@
+// OWL slider
+@import "owl-carousel/owl.carousel"
+@import "owl-carousel/owl.theme"
+@import "owl-carousel/owl.transitions"
+
+// Un slider
+.slider
+	clear both
+	.owl-controls
+		display none !important
+
+	&__item
+		figure
+			display block
+			margin 0
+
+	&__home
+		position relative
+
+		&__leyenda
+			filter unquote("progid:DXImageTransform.Microsoft.gradient( startColorstr='#80312720', endColorstr='#80312720',GradientType=1 )")
+			background rgba(negro_puro, 0.7)
+			color blanco
+			font-family fuente_heading
+			font-size 1em
+			left 0
+			padding 0.5em 0
+			margin 0
+			position absolute
+			top 0
+			width 100%
+
+	// El del los trabajaos realizados
+	&__secundario
+		box-sizing border-box
+		margin-top $em
+		padding 0 0.5em
+
+		.slider__item
+			margin 0 0.5em
+
+			figure
+				margin 0 auto !important
+				max-width 300px
+
+				figcaption
+					color gris_suave
+					font-family fuente_heading_bold
+					padding 0.5em
+					position relative
+					overflow hidden
+
+
+				a
+					display block
+					imagenizador()
+					overflow hidden
+					position relative
+					text-decoration none
+					transition_comun()
+
+
+				img
+					border 1px solid gris_nube
+					display block
+					position relative
+					width 100%
+					z-index 2
+
+// Slider central de la home
+@media all and (min-width: 600px)
+	.slider
+		&__item
+			position relative
+			
+		&__home__leyenda
+			bottom auto
+			font-size 30px
+			left 10%
+			padding 15px
+			top 40%
+			width 80%
+			margin-right auto
+			margin-left auto
+			display table-cell

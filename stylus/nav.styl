@@ -1,0 +1,114 @@
+// Navegación principal de la web
+.nav
+	background verde_asa
+	font-family fuente_heading_bold
+	font-size $em
+	letter-spacing -1px
+	clear both
+
+	&__list
+		list-style none
+		display none
+		margin 0
+		padding 0
+		text-align left
+
+		li
+			border-top 1px dashed blanco
+			display block
+
+			a
+				color blanco_puro
+				display block
+				padding 0.5em
+				text-decoration none
+				&:hover
+					color gris
+					
+
+		// Borrando los bordes de los extremos
+		.last-child
+			border-bottom none
+
+		.first-child
+			border-top none
+
+		// Los enlaces activo y actualmente corrientes
+		li.current-menu-item
+		li.current_page_item
+			a
+				color gris
+
+
+
+// Puntos de quiebre
+@media all and (min-width: 1000px)
+	.nav
+		background none
+		font-size $em*1.2
+		position absolute
+		right 0
+		transition all 0.2s ease-in-out
+		text-align right
+		top $em*0.5
+
+		&__list
+		div.menu ul
+			display table
+			opacity 1
+			visibility visible
+
+			li
+				border-top none
+				border-bottom none
+				font-size 0.8em
+				position relative
+				display table-cell
+
+				a
+					display block
+					margin-left $em*0.25
+					margin-right $em*0.25
+					position relative
+
+				a + .sub-menu
+					transition all 0.2s ease-in-out
+
+				a:hover + .sub-menu
+				a:focus + .sub-menu
+				a:active + .sub-menu
+					display table-row
+
+
+				.indicador
+					&:after
+						content ""
+						display inline-block
+						margin-left $em*0.5
+						transition all 0.2s ease-in-out
+						triangle(8px, 8px, bottom, gris_nube)
+					&:hover
+						&:after
+							triangle(8px, 8px, bottom, gris_nube)
+			
+		.sub-menu
+			background verde_asa
+			display none
+			margin 0
+			min-width 200px
+			padding 0
+			position absolute
+			width 100%
+
+			li
+				display block
+				list-style none
+				a
+					font-size $em*0.9
+					padding 12px
+
+			&:hover
+			&:focus
+			&:active
+				display table-row
+
