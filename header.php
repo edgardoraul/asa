@@ -229,9 +229,9 @@ $meta_paginas_meta_keywords 	= rwmb_meta('meta_paginas_meta_keywords', '');
 			<?php
 			// El titular principal h1 solo en la home, en el resto de las páginas será un h2
 			if( is_home() ) { ?>
-				<div class="heading__title">
-					<h1><?php bloginfo("description");?></h1>
-				</div>
+				<!-- <div class="heading__title">
+					<h1><?php //bloginfo("description");?></h1>
+				</div> -->
 			<?php } else { ?>
 
 				<!-- Sirve para englogar la pagina, sidebar y single -->
