@@ -42,17 +42,17 @@
 
 
 // Puntos de quiebre
-@media all and (min-width: 1000px)
+@media all and (min-width: 1100px)
 	.nav
 		background none
 		font-size $em*1.2
 		position absolute
-		right 0
+		right $em*0.5
 		transition all 0.2s ease-in-out
 		text-align right
-		top $em*0.5
+		top $em
 
-		&__list
+		&__list,
 		div.menu ul
 			display table
 			opacity 1
