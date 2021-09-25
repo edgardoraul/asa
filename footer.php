@@ -110,6 +110,8 @@ $email_contact		=	of_get_option( 'email_contact', '' );
 
 	<script type="text/javascript" defer src="<?php bloginfo('stylesheet_directory');?>/js/jquery-1.12.4.min.js"></script>
 	<script type="text/javascript" defer src="<?php bloginfo('stylesheet_directory');?>/js/scripts.min.js"></script>
+	
+
 	<?php
 
 	// El google Analitics

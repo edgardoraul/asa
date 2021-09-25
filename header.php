@@ -173,7 +173,12 @@ $meta_paginas_meta_keywords 	= rwmb_meta('meta_paginas_meta_keywords', '');
 	<link rel="icon" type="image/png" href="<?php bloginfo('stylesheet_directory');?>/img/favicon-32x32.png" sizes="32x32" />
 	<link rel="icon" type="image/png" href="<?php bloginfo('stylesheet_directory');?>/img/favicon-16x16.png" sizes="16x16" />
 
-	<?php wp_head();?>
+	<?php
+	/* Los estilos del Contact Form sólo se cargarán en la página de Cotnacto */
+	
+	
+	
+	wp_head();?>
 </head>
 <body>
 	<div class="wrapper">

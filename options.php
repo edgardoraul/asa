@@ -92,6 +92,37 @@ function optionsframework_options()
 		'type'			=>	'textarea',
 	);
 
+	// Obterner claves privadas y publicas de reCaptcha
+	$options[] = array(
+		'name' 			=> __('Conseguir las claves públicas y privadas para Google reCaptcha', 'options_framework_theme'),
+		'desc' 			=> '<a class="button-primary" style="float:none;" target="_blank" title="Google reCaptcha" href="https://www.google.com/recaptcha/admin">' . __('Obtener', 'options_framework_theme') . '</a>',
+		'id' 			=> 'obtencion',
+		'placeholder'	=> '',
+		'class'			=> '',
+		'type' 			=> 'info',
+	);
+
+
+	// Clave privada de google recaptcha
+	$options[] = array(
+		'name' 			=> __('Clave Secreta de Google reCaptcha', 'options_framework_theme'),
+		'desc' 			=> __('Introduzca su clave secreta.', 'options_framework_theme'),
+		'id' 			=> 'reCaptchaClavePrivada',
+		'placeholder'	=> 'jf8erpandoasd98wepa...',
+		'class'			=> '',
+		'type' 			=> 'text',
+	);
+
+	// Clave pública de google recaptcha
+	$options[] = array(
+		'name' 			=> __('Clave pública de Google reCaptcha', 'options_framework_theme'),
+		'desc' 			=> __('Introduzca su clave pública.', 'options_framework_theme'),
+		'id' 			=> 'reCaptchaClavePublica',
+		'placeholder'	=> 'qwoeg9384sd98wepa...',
+		'class'			=> '',
+		'type' 			=> 'text',
+	);
+
 	/*====================================================================================*/
 	/* =================== Pestaña información de contacto ============================== */
 	$options[]	=	array(
