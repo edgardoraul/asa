@@ -17,7 +17,7 @@ require_once "includes/03._el_slider.php";
 
 // Regenerar los thumbnails
 require_once "includes/04._regenerate-thumbnails.php";
-
+/*
 // Cargar Panel de Opciones
 if ( !function_exists( 'optionsframework_init' ) )
 {
@@ -45,7 +45,7 @@ jQuery(document).ready(function()
 
 <?php
 }
-
+*/
 // Sitemap en xml
 require_once "includes/06._sitemap.php";
 
