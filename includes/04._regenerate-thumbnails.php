@@ -2,7 +2,7 @@
 
 **************************************************************************
 
-Plugin Name:  Regenerate Thumbnails
+Plugin Name:  Regenerar Miniaturas
 Plugin URI:   http://www.viper007bond.com/wordpress-plugins/regenerate-thumbnails/
 Description:  Allows you to regenerate all thumbnails after changing the thumbnail sizes.
 Version:      2.2.6
@@ -53,7 +53,7 @@ class RegenerateThumbnails {
 
 	// Register the management page
 	public function add_admin_menu() {
-		$this->menu_id = add_management_page( __( 'Regenerate Thumbnails', 'regenerate-thumbnails' ), __( 'Regen. Thumbnails', 'regenerate-thumbnails' ), $this->capability, 'regenerate-thumbnails', array($this, 'regenerate_interface') );
+		$this->menu_id = add_management_page( __( 'Regenerar Miniaturas', 'regenerate-thumbnails' ), __( 'Regenerar Miniaturas', 'regenerate-thumbnails' ), $this->capability, 'regenerate-thumbnails', array($this, 'regenerate_interface') );
 	}
 
 
@@ -72,19 +72,19 @@ class RegenerateThumbnails {
 	}
 
 
-	// Add a "Regenerate Thumbnails" link to the media row actions
+	// Add a "Regenerar Miniaturas" link to the media row actions
 	public function add_media_row_action( $actions, $post ) {
 		if ( 'image/' != substr( $post->post_mime_type, 0, 6 ) || ! current_user_can( $this->capability ) )
 			return $actions;
 
 		$url = wp_nonce_url( admin_url( 'tools.php?page=regenerate-thumbnails&goback=1&ids=' . $post->ID ), 'regenerate-thumbnails' );
-		$actions['regenerate_thumbnails'] = '<a href="' . esc_url( $url ) . '" title="' . esc_attr( __( "Regenerate the thumbnails for this single image", 'regenerate-thumbnails' ) ) . '">' . __( 'Regenerate Thumbnails', 'regenerate-thumbnails' ) . '</a>';
+		$actions['regenerate_thumbnails'] = '<a href="' . esc_url( $url ) . '" title="' . esc_attr( __( "Regenerar para esta sola imagen", 'regenerate-thumbnails' ) ) . '">' . __( 'Regenerar Miniaturas', 'regenerate-thumbnails' ) . '</a>';
 
 		return $actions;
 	}
 
 
-	// Add "Regenerate Thumbnails" to the Bulk Actions media dropdown
+	// Add "Regenerar Miniaturas" to the Bulk Actions media dropdown
 	public function add_bulk_actions( $actions ) {
 		$delete = false;
 		if ( ! empty( $actions['delete'] ) ) {
@@ -92,7 +92,7 @@ class RegenerateThumbnails {
 			unset( $actions['delete'] );
 		}
 
-		$actions['bulk_regenerate_thumbnails'] = __( 'Regenerate Thumbnails', 'regenerate-thumbnails' );
+		$actions['bulk_regenerate_thumbnails'] = __( 'Regenerar Miniaturas', 'regenerate-thumbnails' );
 
 		if ( $delete )
 			$actions['delete'] = $delete;
@@ -109,7 +109,7 @@ class RegenerateThumbnails {
 ?>
 		<script type="text/javascript">
 			jQuery(document).ready(function($){
-				$('select[name^="action"] option:last-child').before('<option value="bulk_regenerate_thumbnails"><?php echo esc_attr( __( 'Regenerate Thumbnails', 'regenerate-thumbnails' ) ); ?></option>');
+				$('select[name^="action"] option:last-child').before('<option value="bulk_regenerate_thumbnails"><?php echo esc_attr( __( 'Regenerar Miniaturas', 'regenerate-thumbnails' ) ); ?></option>');
 			});
 		</script>
 <?php
@@ -143,7 +143,7 @@ class RegenerateThumbnails {
 <div id="message" class="updated fade" style="display:none"></div>
 
 <div class="wrap regenthumbs">
-	<h2><?php _e('Regenerate Thumbnails', 'regenerate-thumbnails'); ?></h2>
+	<h2><?php _e('Regenerar Miniaturas', 'regenerate-thumbnails'); ?></h2>
 
 <?php
 
@@ -325,7 +325,7 @@ class RegenerateThumbnails {
 	<form method="post" action="">
 <?php wp_nonce_field('regenerate-thumbnails') ?>
 
-	<p><?php printf( __( "Use this tool to regenerate thumbnails for all images that you have uploaded to your blog. This is useful if you've changed any of the thumbnail dimensions on the <a href='%s'>media settings page</a>. Old thumbnails will be kept to avoid any broken images due to hard-coded URLs.", 'regenerate-thumbnails' ), admin_url( 'options-media.php' ) ); ?></p>
+	<p><?php printf( __( "Use this tool to Regenerar Miniaturas for all images that you have uploaded to your blog. This is useful if you've changed any of the thumbnail dimensions on the <a href='%s'>media settings page</a>. Old thumbnails will be kept to avoid any broken images due to hard-coded URLs.", 'regenerate-thumbnails' ), admin_url( 'options-media.php' ) ); ?></p>
 
 	<p><?php printf( __( "You can regenerate specific images (rather than all images) from the <a href='%s'>Media</a> page. Hover over an image's row and click the link to resize just that one image or use the checkboxes and the &quot;Bulk Actions&quot; dropdown to resize multiple images (WordPress 3.1+ only).", 'regenerate-thumbnails '), admin_url( 'upload.php' ) ); ?></p>
 
@@ -374,7 +374,7 @@ class RegenerateThumbnails {
 		if ( is_wp_error( $metadata ) )
 			$this->die_json_error_msg( $image->ID, $metadata->get_error_message() );
 		if ( empty( $metadata ) )
-			$this->die_json_error_msg( $image->ID, __( 'Unknown failure reason.', 'regenerate-thumbnails' ) );
+			$this->die_json_error_msg( $image->ID, __( 'Error desconocido.', 'regenerate-thumbnails' ) );
 
 		// If this fails, then it just means that nothing was changed (old value == new value)
 		wp_update_attachment_metadata( $image->ID, $metadata );

@@ -226,6 +226,16 @@ $meta_paginas_meta_keywords 	= rwmb_meta('meta_paginas_meta_keywords', '');
 				);
 				wp_nav_menu($default);?>
 			</nav>
+			
+			<!-- Traductor -->
+			<div id="traductor">
+				<?php
+					if ( function_exists( 'the_msls' ) )
+					{
+						the_msls();
+					}
+				?>
+			</div>
 
 			<!-- Limpiador -->
 			<div class="clearboth"></div>

@@ -1,190 +1,1181 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Los Altos del Sol\n"
-"POT-Creation-Date: 2015-03-08 16:17-0300\n"
-"PO-Revision-Date: 2015-03-08 16:17-0300\n"
-"Last-Translator: Edgardo Raúl Galletto | WebModerna <info@webmoderna.com."
-"ar>\n"
-"Language-Team: WebModerna <info@webmoderna.com.ar>\n"
-"Language: es\n"
+"Project-Id-Version: Industrias ASA S.A.\n"
+"POT-Creation-Date: 2021-10-16 20:09-0300\n"
+"PO-Revision-Date: 2021-10-16 20:45-0300\n"
+"Last-Translator: \n"
+"Language-Team: WebModerna<conacto@webmoderna.com.ar>\n"
+"Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.3\n"
-"X-Poedit-KeywordsList: _x;_e;__\n"
-"X-Poedit-Basepath: F:\\wamp\\www\\54._losaltosdelsol\\wp-content\\themes\\\n"
-"X-Poedit-SourceCharset: UTF-8\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Poedit-SearchPath-0: losaltosdelsol\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;_x\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: js\n"
 
-#: losaltosdelsol/404.php:11
+#: 404.php:33
+msgid "No entendemos qué quisiste hacer :-/"
+msgstr "Oh! No! What are doing? We can not understand you :-/"
+
+#: category.php:78 index.php:85 search.php:84 tag.php:82
+msgid " comentarios"
+msgstr " commentaries"
+
+#: category.php:104
+msgid "No hay nada publicado en esta categoría."
+msgstr "No published nothing in this category."
+
+#: comments.php:14
+msgid "Por favor, no cargues esta página directamente. Gracias :-D"
+msgstr "Access denied. Thanks :-D"
+
+#: comments.php:18
 msgid ""
-"Noooo! Error 404!! Qué quisiste hacer? Vete a una página de las que figura "
-"en el menú de arriba, por favor!"
-msgstr ""
-"Noooo! Error 404! What that hell are you doing? Please! Make click in any "
-"item of main menu up here! And do it right this time, ok?"
+"Esta publicación está protegida con contraseña. Iniciá sesión para ver los "
+"comentarios."
+msgstr "Post protected by password."
 
-#: losaltosdelsol/footer.php:3
+#: comments.php:27
+msgid "No hay respuestas"
+msgstr "No responses"
+
+#: comments.php:27
+msgid "Una Respuesta"
+msgstr "One response"
+
+#: comments.php:27
+msgid "% Respuestas"
+msgstr "% Responses"
+
+#: comments.php:47
+msgid "Responder"
+msgstr "Respond"
+
+#: comments.php:72
+msgid "Los comentarios están cerrados."
+msgstr "The commentaries are closed."
+
+#: comments.php:83
+msgid "Dejar un Comentario"
+msgstr "Leave a comment"
+
+#: comments.php:83
+#, php-format
+msgid "Dejar un Comentario a %s"
+msgstr "Leave a comment to %s"
+
+#: comments.php:94
+msgid "Iniciar sesión"
+msgstr "Log in"
+
+#: comments.php:96
+msgid "para publicar un comentario"
+msgstr "for publish a commentar"
+
+#: comments.php:106
+msgid "Hola"
+msgstr "Hi"
+
+#: comments.php:112
+msgid "Cerrar sesión"
+msgstr "Log out"
+
+#: comments.php:113
+msgid "Salir"
+msgstr "Exit"
+
+#: comments.php:121
+msgid "Apellido y Nombre"
+msgstr "Full name"
+
+#: comments.php:123
+msgid "E-Mail. No será publicado"
+msgstr "E-Mail. It will not published"
+
+#: comments.php:136
+msgid "Comentario"
+msgstr "Comment"
+
+#: comments.php:141
+msgid "Enviar"
+msgstr "Send"
+
+#: comments.php:145
+msgid "Limpiar"
+msgstr "Reset"
+
+#: footer.php:102
 msgid "Todos los derechos reservados"
 msgstr "All rights reserved"
 
-#: losaltosdelsol/footer.php:60
-msgid "Desarrollado por "
-msgstr "Powered by"
-
-#: losaltosdelsol/footer.php:64 losaltosdelsol/footer.php:65
-#: losaltosdelsol/footer.php:68 losaltosdelsol/footer.php:69
-msgid "Ir arriba"
+#: footer.php:107
+msgid "Ir hacia arriba"
 msgstr "Go to top"
 
-#: losaltosdelsol/functions.php:192
+#: functions.php:170 includes/11._paginacion.php:8
+msgid "Siguiente"
+msgstr "Next"
+
+#: functions.php:176
+msgid "Anterior"
+msgstr "Previous"
+
+#: functions.php:330
 msgid "Desarrollado por"
 msgstr "Powered by"
 
-#: losaltosdelsol/functions.php:192
-msgid "...:: WebModerna | el futuro de la web ::..."
-msgstr "...:: WebModerna | the web's future  ::..."
+#: functions.php:330
+msgid "WebModerna | Estudio Contable y Agencia Web"
+msgstr "WebModerna | Accountant Studio & Web Agency"
 
-#: losaltosdelsol/functions.php:269
+#: functions.php:386
 msgid "Menú Principal"
 msgstr "Main Menu"
 
-#: losaltosdelsol/functions.php:315
-msgid "Subir las fotos desde aquí"
-msgstr "Upload your images from here"
-
-#: losaltosdelsol/functions.php:335
-msgid "IMPORTANTE!!: Las imágenes deben ser mínimo de 2600px de ancho."
-msgstr "Important!! The image's size must be: width >= 2600px; at less."
-
-#: losaltosdelsol/functions.php:369 losaltosdelsol/functions.php:384
-msgid "Arrastrar y soltar. Mover arriba o abajo."
-msgstr "Drag and drop. Move up and down."
-
-#: losaltosdelsol/functions.php:375 losaltosdelsol/functions.php:387
-msgid "Seleccionar imagen"
-msgstr "Select image"
-
-#: losaltosdelsol/functions.php:377 losaltosdelsol/functions.php:388
-msgid "Eliminar imagen"
-msgstr "Delete image"
-
-#: losaltosdelsol/functions.php:378 losaltosdelsol/functions.php:389
-msgid "Quitar fila"
-msgstr "Delete row"
-
-#: losaltosdelsol/functions.php:394
-msgid " Agregar Imagen"
-msgstr " Add image"
-
-#: losaltosdelsol/functions.php:436
-msgid "Página"
-msgstr "Page"
-
-#: losaltosdelsol/functions.php:437
-msgid "de"
-msgstr "of"
-
-#: losaltosdelsol/functions.php:490
+#: functions.php:449
 msgid "¡Sal de mi jardín! ¡AHORA MISMO!"
-msgstr "Get out of here! Now!!"
+msgstr "Get out from my garden!"
 
-#: losaltosdelsol/functions.php:588
+#: functions.php:485
+msgid ""
+"Error: tu título sobrepasa el máximo de palabras razonable, vuelve atrás y "
+"mejóralo, tus lectores te lo agradecerán."
+msgstr ""
+"Error. Your title is bigger than the maximum. Try another title shorter."
+
+#: header.php:75 header.php:76
+#, php-format
+msgid "%s"
+msgstr "%s"
+
+#: includes/01._login.php:39
+msgid "Cuánto es "
+msgstr "How much "
+
+#: includes/03._el_slider.php:8 includes/03._el_slider.php:32
+msgid "Sliders"
+msgstr "Sliders"
+
+#: includes/03._el_slider.php:9 includes/03._el_slider.php:31
+msgid "Slider"
+msgstr "Slider"
+
+#: includes/03._el_slider.php:10 includes/03._el_slider.php:11
+msgid "Slider de la Home"
+msgstr "Home Slider"
+
+#: includes/03._el_slider.php:12
+msgid "Slider superior:"
+msgstr "Top slider:"
+
+#: includes/03._el_slider.php:13
+msgid "Todos los Sliders"
+msgstr "All sliders"
+
+#: includes/03._el_slider.php:14
+msgid "Agregar nuevo Slider"
+msgstr "Add new slider"
+
+#: includes/03._el_slider.php:15
+msgid "Agregar uno nuevo"
+msgstr "Add new"
+
+#: includes/03._el_slider.php:16
+msgid "Nuevo Slider"
+msgstr "New slider"
+
+#: includes/03._el_slider.php:17
+msgid "Editar Slider"
+msgstr "Edit slider"
+
+#: includes/03._el_slider.php:18
+msgid "Actualizar Slider"
+msgstr "Update Slider"
+
+#: includes/03._el_slider.php:19
+msgid "Ver Slider"
+msgstr "View slider"
+
+#: includes/03._el_slider.php:20
+msgid "Buscar Slider"
+msgstr "Search sliders"
+
+#: includes/03._el_slider.php:21
+msgid "No hay Sliders"
+msgstr "No sliders"
+
+#: includes/03._el_slider.php:22
+msgid "No hay Sliders en la papelera"
+msgstr "No sliders in trash"
+
+#: includes/04._regenerate-thumbnails.php:56
+#: includes/04._regenerate-thumbnails.php:81
+#: includes/04._regenerate-thumbnails.php:95
+#: includes/04._regenerate-thumbnails.php:112
+#: includes/04._regenerate-thumbnails.php:146
+msgid "Regenerar Miniaturas"
+msgstr "Regenerate Thumbnails"
+
+#: includes/04._regenerate-thumbnails.php:81
+msgid "Regenerar para esta sola imagen"
+msgstr "Regenerate the thumbnails for this single image"
+
+#: includes/04._regenerate-thumbnails.php:154
+msgid "Cheatin&#8217; uh?"
+msgstr ""
+
+#: includes/04._regenerate-thumbnails.php:168
+#, php-format
+msgid "Unable to find any images. Are you sure <a href='%s'>some exist</a>?"
+msgstr ""
+
+#: includes/04._regenerate-thumbnails.php:179
+msgid ""
+"Please be patient while the thumbnails are regenerated. This can take a "
+"while if your server is slow (inexpensive hosting) or if you have many "
+"images. Do not navigate away from this page until this script is done or the "
+"thumbnails will not be resized. You will be notified via this page when the "
+"regenerating is completed."
+msgstr ""
+
+#: includes/04._regenerate-thumbnails.php:183
+#, php-format
+msgid "To go back to the previous page, <a href=\"%s\">click here</a>."
+msgstr ""
+
+#: includes/04._regenerate-thumbnails.php:184
+#, php-format
+msgid ""
+"All done! %1$s image(s) were successfully resized in %2$s seconds and there "
+"were %3$s failure(s). To try regenerating the failed images again, <a href="
+"\"%4$s\">click here</a>. %5$s"
+msgstr ""
+
+#: includes/04._regenerate-thumbnails.php:185
+#, php-format
+msgid ""
+"All done! %1$s image(s) were successfully resized in %2$s seconds and there "
+"were 0 failures. %3$s"
+msgstr ""
+
+#: includes/04._regenerate-thumbnails.php:189
+#: includes/04._regenerate-thumbnails.php:338
+msgid "You must enable Javascript in order to proceed!"
+msgstr ""
+
+#: includes/04._regenerate-thumbnails.php:195
+msgid "Abort Resizing Images"
+msgstr ""
+
+#: includes/04._regenerate-thumbnails.php:197
+msgid "Debugging Information"
+msgstr ""
+
+#: includes/04._regenerate-thumbnails.php:200
+#, php-format
+msgid "Total Images: %s"
+msgstr ""
+
+#: includes/04._regenerate-thumbnails.php:201
+#, php-format
+msgid "Images Resized: %s"
+msgstr ""
+
+#: includes/04._regenerate-thumbnails.php:202
+#, php-format
+msgid "Resize Failures: %s"
+msgstr ""
+
+#: includes/04._regenerate-thumbnails.php:233
+msgid "Stopping..."
+msgstr ""
+
+#: includes/04._regenerate-thumbnails.php:285
+#, php-format
+msgid ""
+"The resize request was abnormally terminated (ID %s). This is likely due to "
+"the image exceeding available memory or some other type of fatal error."
+msgstr ""
+
+#: includes/04._regenerate-thumbnails.php:328
+#, php-format
+msgid ""
+"Use this tool to Regenerar Miniaturas for all images that you have uploaded "
+"to your blog. This is useful if you've changed any of the thumbnail "
+"dimensions on the <a href='%s'>media settings page</a>. Old thumbnails will "
+"be kept to avoid any broken images due to hard-coded URLs."
+msgstr ""
+
+#: includes/04._regenerate-thumbnails.php:330
+#, php-format
+msgid ""
+"You can regenerate specific images (rather than all images) from the <a "
+"href='%s'>Media</a> page. Hover over an image's row and click the link to "
+"resize just that one image or use the checkboxes and the &quot;Bulk "
+"Actions&quot; dropdown to resize multiple images (WordPress 3.1+ only)."
+msgstr ""
+
+#: includes/04._regenerate-thumbnails.php:332
+msgid ""
+"Thumbnail regeneration is not reversible, but you can just change your "
+"thumbnail dimensions back to the old values and click the button again if "
+"you don't like the results."
+msgstr ""
+
+#: includes/04._regenerate-thumbnails.php:334
+msgid "To begin, just press the button below."
+msgstr ""
+
+#: includes/04._regenerate-thumbnails.php:336
+msgid "Regenerate All Thumbnails"
+msgstr ""
+
+#: includes/04._regenerate-thumbnails.php:360
+#, php-format
+msgid "Failed resize: %s is an invalid image ID."
+msgstr ""
+
+#: includes/04._regenerate-thumbnails.php:363
+msgid "Your user account doesn't have permission to resize images"
+msgstr ""
+
+#: includes/04._regenerate-thumbnails.php:368
+#, php-format
+msgid "The originally uploaded image file cannot be found at %s"
+msgstr ""
+
+#: includes/04._regenerate-thumbnails.php:377
+msgid "Error desconocido."
+msgstr "Unknown failure reason."
+
+#: includes/04._regenerate-thumbnails.php:382
+#, php-format
+msgid "&quot;%1$s&quot; (ID %2$s) was successfully resized in %3$s seconds."
+msgstr ""
+
+#: includes/04._regenerate-thumbnails.php:388
+#, php-format
+msgid ""
+"&quot;%1$s&quot; (ID %2$s) failed to resize. The error message was: %3$s"
+msgstr ""
+
+#: includes/07._sidebar.php:7
+msgid "Barra Lateral Derecha"
+msgstr "Sidebar Right"
+
+#: includes/07._sidebar.php:8
+msgid "Una sola a la derecha"
+msgstr "Only one to right"
+
+#: includes/08._configuracion_metabox.php:28
+msgid "Seleccione una página de destino"
+msgstr "Select a target page"
+
+#: includes/08._configuracion_metabox.php:46
+msgid "Enlazar con Páginas"
+msgstr "Link to pages"
+
+#: includes/08._configuracion_metabox.php:122
+msgid "Seleccionar"
+msgstr "Select"
+
+#: includes/08._configuracion_metabox.php:135
+msgid "Elegir"
+msgstr "Choise"
+
+#: includes/08._configuracion_metabox.php:533
+msgid "S.E.O. y posicionamiento web"
+msgstr "S.E.O. and web positioning"
+
+#: includes/08._configuracion_metabox.php:548
+msgid "Palabras claves."
+msgstr "Key words."
+
+#: includes/08._configuracion_metabox.php:552
+msgid ""
+"Palabras claves (keywords) separadas por comas. Son útiles para SEO en "
+"algunos buscadores. Máximo 100 caracteres."
+msgstr ""
+"Key words separated by comas. Usefully for SEO. Maximum 100 characters."
+
+#: includes/08._configuracion_metabox.php:561
 msgid "Descripción"
 msgstr "Description"
 
-#: losaltosdelsol/functions.php:607
+#: includes/08._configuracion_metabox.php:562
 msgid ""
-"Escribí una pequeña descripción de lo que trata esta página en concreto."
-msgstr "Write a little description about of the content of this page."
+"Es una descripción que aparece en el meta description. Es muy recomendable "
+"para SEO. Máximo 100 caracteres."
+msgstr "Usefully for meta description and SEO. Maximum 100 characteres."
 
-#: losaltosdelsol/functions.php:659
-msgid "Contenidos del pie de página"
-msgstr "Contents of footer"
+#: includes/08._configuracion_metabox.php:572
+msgid "Imágenes y Fotos"
+msgstr "Images & pictures"
 
-#: losaltosdelsol/functions.php:660 losaltosdelsol/functions.php:661
-msgid "Pie de página"
-msgstr "Footer"
+#: includes/08._configuracion_metabox.php:575
+msgid ""
+"Las fotos deben ser mínimo de 2000px de ancho. Pesan aproximadamente 1 a 2 "
+"Megabytes"
+msgstr ""
+"Pictures must be width 2000px or more. Weight: between 2mg and 5mb more or "
+"less"
 
-#: losaltosdelsol/functions.php:662
-msgid "Item superior"
-msgstr "Parent item"
+#: includes/08._configuracion_metabox.php:580
+msgid "Subir varias fotos desde aquí. "
+msgstr "Upload many pictures from here."
 
-#: losaltosdelsol/functions.php:663
-msgid "Todos los items"
-msgstr "All items"
+#: includes/09._thumbnails.php:61
+msgid "Tamaño recortado 0"
+msgstr "Cut size 0"
 
-#: losaltosdelsol/functions.php:664
-msgid "Ver item"
-msgstr "View item"
+#: includes/09._thumbnails.php:62
+msgid "Tamaño recortado 1"
+msgstr "Cut size 1"
 
-#: losaltosdelsol/functions.php:665
-msgid "Agregar nuevo item"
-msgstr "Add new item"
+#: includes/09._thumbnails.php:63
+msgid "Tamaño recortado 2"
+msgstr "Cut size 2"
 
-#: losaltosdelsol/functions.php:666
-msgid "Agregar nuevo"
+#: includes/09._thumbnails.php:64
+msgid "Tamaño recortado 3"
+msgstr "Cut size 3"
+
+#: includes/09._thumbnails.php:65
+msgid "Tamaño recortado 4"
+msgstr "Cut size 4"
+
+#: includes/09._thumbnails.php:66
+msgid "Tamaño recortado 5"
+msgstr "Cut size 5"
+
+#: includes/09._thumbnails.php:67
+msgid "Tamaño recortado 5 - cuadrado"
+msgstr "Cut size 5 - square"
+
+#: includes/09._thumbnails.php:68
+msgid "Tamaño recortado 6"
+msgstr "Cut size 6"
+
+#: includes/09._thumbnails.php:69
+msgid "Tamaño recortado 6 - cuadrado"
+msgstr "Cut size 6 - square"
+
+#: includes/09._thumbnails.php:70
+msgid "Tamaño recortado 7"
+msgstr "Cut size 7"
+
+#: includes/09._thumbnails.php:71
+msgid "Tamaño recortado 8"
+msgstr "Cut size 8"
+
+#: includes/09._thumbnails.php:72
+msgid "Tamaño recortado 9"
+msgstr "Cut size 9"
+
+#: includes/09._thumbnails.php:73
+msgid "Tamaño recortado 10"
+msgstr "Cut size 10"
+
+#: includes/09._thumbnails.php:74
+msgid "Tamaño recortado 11"
+msgstr "Cut size 11"
+
+#: includes/09._thumbnails.php:75
+msgid "Tamaño recortado 12"
+msgstr "Cut size 12"
+
+#: includes/09._thumbnails.php:78
+msgid "Tamaño adaptable 0"
+msgstr "Auto size 0"
+
+#: includes/09._thumbnails.php:79
+msgid "Tamaño adaptable 1"
+msgstr "Auto size  1"
+
+#: includes/09._thumbnails.php:80
+msgid "Tamaño adaptable 2"
+msgstr "Auto size 2"
+
+#: includes/09._thumbnails.php:81
+msgid "Tamaño adaptable 3"
+msgstr "Auto size 3"
+
+#: includes/09._thumbnails.php:82
+msgid "Tamaño adaptable 4"
+msgstr "Auto size 4"
+
+#: includes/09._thumbnails.php:83
+msgid "Tamaño adaptable 5"
+msgstr "Auto size 5"
+
+#: includes/09._thumbnails.php:84
+msgid "Tamaño adaptable 6"
+msgstr "Auto size 6"
+
+#: includes/09._thumbnails.php:85
+msgid "Tamaño adaptable 7"
+msgstr "Auto size 7"
+
+#: includes/10._breadcrums.php:10
+msgid "Tu estás aquí: "
+msgstr "You are here:"
+
+#: includes/10._breadcrums.php:11
+msgid "Inicio"
+msgstr "Home"
+
+#: includes/11._paginacion.php:4
+msgid "Página"
+msgstr "Page"
+
+#: includes/11._paginacion.php:5
+msgid "de"
+msgstr "of"
+
+#: includes/11._paginacion.php:6
+msgid "Primero"
+msgstr "First"
+
+#: includes/11._paginacion.php:7
+msgid "Atrás"
+msgstr "Back"
+
+#: includes/11._paginacion.php:9
+msgid "Último"
+msgstr "Last"
+
+#: includes/21._testimonios.php:7
+msgid "Carteles"
+msgstr "Flyers"
+
+#: includes/21._testimonios.php:8 includes/21._testimonios.php:34
+msgid "Cartel"
+msgstr "Flyer"
+
+#: includes/21._testimonios.php:9 includes/21._testimonios.php:10
+msgid "Carteles del Home"
+msgstr "Home Flyers"
+
+#: includes/21._testimonios.php:11
+msgid "Cartel Archives"
+msgstr "tamaño adaptable"
+
+#: includes/21._testimonios.php:12
+msgid "Cartel superior:"
+msgstr "Flyer top:"
+
+#: includes/21._testimonios.php:13
+msgid "Todos los carteles"
+msgstr "All flyers"
+
+#: includes/21._testimonios.php:14
+msgid "Añadir nuevo cartel"
+msgstr "Add new flyer"
+
+#: includes/21._testimonios.php:15
+msgid "Añadir uno nuevo"
 msgstr "Add new"
 
-#: losaltosdelsol/functions.php:667
-msgid "Editar item"
-msgstr "Edit item"
+#: includes/21._testimonios.php:16
+msgid "Nuevo cartel"
+msgstr "New flyer"
 
-#: losaltosdelsol/functions.php:668
-msgid "Actualizar item"
-msgstr "Update item"
+#: includes/21._testimonios.php:17
+msgid "Editar cartel"
+msgstr "Edit flyer"
 
-#: losaltosdelsol/functions.php:669
-msgid "Buscar item"
-msgstr "Search item"
+#: includes/21._testimonios.php:18
+msgid "Actualizar cartel"
+msgstr "Update flyer"
 
-#: losaltosdelsol/functions.php:670
-msgid "No hay items"
-msgstr "No items"
+#: includes/21._testimonios.php:19
+msgid "Ver cartel"
+msgstr "View flyer"
 
-#: losaltosdelsol/functions.php:671
-msgid "No hay items en la papelera"
-msgstr "No items in trash"
+#: includes/21._testimonios.php:20
+msgid "Buscar cartel"
+msgstr "Search flyer"
 
-#: losaltosdelsol/functions.php:674
-msgid "Contenido que va al pie de página"
-msgstr "Content inside of footer"
+#: includes/21._testimonios.php:21
+msgid "No hay carteles"
+msgstr "No flyers"
 
-#: losaltosdelsol/functions.php:675
-msgid "Contenido que se puede agregar en el pie de página"
-msgstr "You can add a content at footer"
+#: includes/21._testimonios.php:22
+msgid "No hay carteles en la papelera"
+msgstr "No flyers in trash"
 
-#: losaltosdelsol/header.php:23
-msgid "Error 404"
-msgstr "Error 404"
+#: includes/21._testimonios.php:23
+msgid "Imagen destacada"
+msgstr "Featured image"
 
-#: losaltosdelsol/header.php:91
-msgid "Menú"
-msgstr "Menu"
+#: includes/21._testimonios.php:24
+msgid "Colocar una imagen destacada"
+msgstr "Set a featured image"
 
-#: losaltosdelsol/page.php:24 losaltosdelsol/page.php:33
-msgid "Sin imagen"
-msgstr "No image"
+#: includes/21._testimonios.php:25
+msgid "Remover una imagen destacada"
+msgstr "Remove an featured image"
 
-#~ msgid "Los Altos del Sol "
-#~ msgstr "Altos del Sol Resort"
+#: includes/21._testimonios.php:26
+msgid "Usar como Imagen destacada"
+msgstr "Set as featured image"
 
-#, fuzzy
-#~ msgid "Pie de páginaa"
-#~ msgstr "Footer"
+#: includes/21._testimonios.php:27
+msgid "Insertar dentro del cartel"
+msgstr "Insert into the flyer"
 
-#, fuzzy
-#~ msgid "Contenidos del pie de páginasdfgsfdgsdfs"
-#~ msgstr "Content of footer"
+#: includes/21._testimonios.php:28
+msgid "Cargado en este cartel"
+msgstr "Loaded in this flyer"
 
-#, fuzzy
-#~ msgid "Pie de páginaasdfadadfadf"
-#~ msgstr "Footer"
+#: includes/21._testimonios.php:29
+msgid "Listado de los carteles"
+msgstr "List of flyers"
 
-#, fuzzy
-#~ msgid "Contenidosdfgdgdfgdfg del pie de página"
-#~ msgstr "Content of footer"
+#: includes/21._testimonios.php:30
+msgid "Listado de navegación de carteles"
+msgstr "List flyer's navigation"
 
-#~ msgid "post_type_pie_pagina"
-#~ msgstr "post_type_pie_pagina"
+#: includes/21._testimonios.php:31
+msgid "Filtrar listado de los carteles"
+msgstr "Sort list flyers"
+
+#: includes/21._testimonios.php:35
+msgid "Carteles de la home"
+msgstr "Flyer's Home"
+
+#: includes/22._perfil_usuario.php:20 includes/22._perfil_usuario.php:70
+msgid "Ciudad"
+msgstr "City"
+
+#: includes/22._perfil_usuario.php:25 includes/22._perfil_usuario.php:74
+#: options.php:277
+msgid "Provincia"
+msgstr "State"
+
+#: includes/22._perfil_usuario.php:30 includes/22._perfil_usuario.php:78
+msgid "Teléfono"
+msgstr "Telephone"
+
+#: includes/22._perfil_usuario.php:43
+msgid "<strong>ERROR</strong>: Por favor, introduce tu Ciudad."
+msgstr "<strong>ERROR</strong>: please, set your city."
+
+#: includes/22._perfil_usuario.php:47
+msgid "<strong>ERROR</strong>: Por favor, introduce tu Provincia."
+msgstr "<st<strong>ERROR</strong>: please, set your state."
+
+#: includes/22._perfil_usuario.php:51
+msgid "<strong>ERROR</strong>: Por favor, introduce tu Teléfono."
+msgstr "<strong>ERROR</strong>: please, set your telephone."
+
+#: includes/22._perfil_usuario.php:66
+msgid "¿Nos podrías dar tu opinión?"
+msgstr "¿Can you give us your opinion?"
+
+#: includes/22._perfil_usuario.php:82
+msgid "Opinión/Testimonio"
+msgstr "Opinion"
+
+#: includes/includes/class-options-framework-admin.php:91
+#: includes/includes/class-options-framework-admin.php:92
+msgid "Opciones del sitio web"
+msgstr "Website Settings"
+
+#: includes/includes/class-options-framework-admin.php:204
+msgid "Click OK para resetear. Cualquier cambio hecho se perderá!"
+msgstr "Reset. All changes will lost!"
+
+#: includes/includes/class-options-framework-admin.php:235
+msgid "Configuraciones por defecto restauradas."
+msgstr "Default settings restored."
+
+#: includes/includes/class-options-framework-admin.php:289
+msgid "Opciones guardadas."
+msgstr "Settings saved."
+
+#: includes/includes/class-options-media-uploader.php:63
+msgid "No hay archivo"
+msgstr "No file"
+
+#: includes/includes/class-options-media-uploader.php:66
+#: includes/includes/class-options-media-uploader.php:119
+msgid "Subir"
+msgstr "Upload"
+
+#: includes/includes/class-options-media-uploader.php:68
+#: includes/includes/class-options-media-uploader.php:120
+msgid "Remover"
+msgstr "Delete"
+
+#: includes/includes/class-options-media-uploader.php:71
+msgid "Actualiza tu versión de WordPress para un completo soporte multi-media."
+msgstr "Update your WordPress version for full support multi-media."
+
+#: includes/includes/class-options-media-uploader.php:95
+msgid "Ver archivo"
+msgstr "View file"
+
+#: includes/includes/class-options-sanitization.php:316
+msgid "No Repetir"
+msgstr "No repeat"
+
+#: includes/includes/class-options-sanitization.php:317
+msgid "Repetir Horizontalmente"
+msgstr "Horizontal repeat"
+
+#: includes/includes/class-options-sanitization.php:318
+msgid "Repetir Verticalmente"
+msgstr "Vertical repeat"
+
+#: includes/includes/class-options-sanitization.php:319
+msgid "Repetir Todo"
+msgstr "Repeat all"
+
+#: includes/includes/class-options-sanitization.php:331
+msgid "Arriba Izquierda"
+msgstr "Top Left"
+
+#: includes/includes/class-options-sanitization.php:332
+msgid "Arriba Centro"
+msgstr "Top Center"
+
+#: includes/includes/class-options-sanitization.php:333
+msgid "Arriba Derecha"
+msgstr "Top Right"
+
+#: includes/includes/class-options-sanitization.php:334
+msgid "Medio Izquierda"
+msgstr "Middle left"
+
+#: includes/includes/class-options-sanitization.php:335
+msgid "Medio Centro"
+msgstr "Middle Center"
+
+#: includes/includes/class-options-sanitization.php:336
+msgid "Medio Derecha"
+msgstr "Middle right"
+
+#: includes/includes/class-options-sanitization.php:337
+msgid "Abajo Izquierda"
+msgstr "Bottom Left"
+
+#: includes/includes/class-options-sanitization.php:338
+msgid "Abajo Centro"
+msgstr "Bottom Center"
+
+#: includes/includes/class-options-sanitization.php:339
+msgid "Abajo Derecha"
+msgstr "Bottom Right"
+
+#: includes/includes/class-options-sanitization.php:351
+msgid "Desplazamiento normal"
+msgstr "Normal"
+
+#: includes/includes/class-options-sanitization.php:352
+msgid "Fija en un lugar"
+msgstr "Fixed"
+
+#: includes/includes/class-options-sanitization.php:424
+msgid "Normal"
+msgstr "Normal"
+
+#: includes/includes/class-options-sanitization.php:425
+msgid "Cursiva"
+msgstr "Italic"
+
+#: includes/includes/class-options-sanitization.php:426
+msgid "Negrita"
+msgstr "Bold"
+
+#: includes/includes/class-options-sanitization.php:427
+msgid "Negrita Cursiva"
+msgstr "Bold Italic"
+
+#: includes/includes/form.php:90
+msgid "Register"
+msgstr ""
+
+#: includes/meta-box/inc/core.php:40
+msgid "Documentation"
+msgstr ""
+
+#: includes/meta-box/inc/core.php:41
+msgid "Extensions"
+msgstr ""
+
+#: includes/meta-box/inc/field.php:196
+msgid "+ Añadir otro"
+msgstr ""
+
+#: includes/meta-box/inc/fields/autocomplete.php:14
+#: includes/meta-box/inc/fields/autocomplete.php:75
+#: includes/meta-box/inc/fields/autocomplete.php:92
+#: includes/meta-box/inc/fields/file.php:153
+#: includes/meta-box/inc/fields/image.php:124
+msgid "Delete"
+msgstr ""
+
+#: includes/meta-box/inc/fields/button.php:29
+msgid "Click me"
+msgstr ""
+
+#: includes/meta-box/inc/fields/checkbox.php:85
+msgid "Yes"
+msgstr ""
+
+#: includes/meta-box/inc/fields/checkbox.php:85
+msgid "No"
+msgstr ""
+
+#: includes/meta-box/inc/fields/file-input.php:18
+msgid "Select File"
+msgstr ""
+
+#: includes/meta-box/inc/fields/file-input.php:41
+#: includes/meta-box/inc/fields/select.php:91
+msgid "Select"
+msgstr ""
+
+#: includes/meta-box/inc/fields/file-input.php:43
+#: includes/meta-box/inc/fields/media.php:21
+msgid "Remove"
+msgstr ""
+
+#: includes/meta-box/inc/fields/file.php:15
+#, php-format
+msgid "You may only upload maximum %d file"
+msgstr ""
+
+#: includes/meta-box/inc/fields/file.php:16
+#, php-format
+msgid "You may only upload maximum %d files"
+msgstr ""
+
+#: includes/meta-box/inc/fields/file.php:83
+msgid "Error: Cannot delete file"
+msgstr ""
+
+#: includes/meta-box/inc/fields/file.php:96
+msgid "Upload Files"
+msgstr ""
+
+#: includes/meta-box/inc/fields/file.php:97
+msgid "+ Add new file"
+msgstr ""
+
+#: includes/meta-box/inc/fields/file.php:154
+#: includes/meta-box/inc/fields/image.php:125
+#: includes/meta-box/inc/fields/media.php:22
+msgid "Edit"
+msgstr ""
+
+#: includes/meta-box/inc/fields/image.php:61
+#: includes/meta-box/inc/fields/thickbox-image.php:53
+msgid "Upload Images"
+msgstr ""
+
+#: includes/meta-box/inc/fields/image.php:62
+msgid "+ Add new image"
+msgstr ""
+
+#: includes/meta-box/inc/fields/map.php:49
+msgid "Find Address"
+msgstr ""
+
+#: includes/meta-box/inc/fields/media.php:18
+msgid "+ Add Media"
+msgstr ""
+
+#: includes/meta-box/inc/fields/media.php:19
+msgid " file"
+msgstr ""
+
+#: includes/meta-box/inc/fields/media.php:20
+msgid " files"
+msgstr ""
+
+#: includes/meta-box/inc/fields/media.php:23
+msgid "View"
+msgstr ""
+
+#: includes/meta-box/inc/fields/media.php:24
+msgid "No Title"
+msgstr ""
+
+#: includes/meta-box/inc/fields/media.php:27
+msgid "Select Files"
+msgstr ""
+
+#: includes/meta-box/inc/fields/media.php:28
+msgid "Drop files here to upload"
+msgstr ""
+
+#: includes/meta-box/inc/fields/oembed.php:65
+msgid "Embed HTML not available."
+msgstr ""
+
+#: includes/meta-box/inc/fields/oembed.php:84
+msgid "Preview"
+msgstr ""
+
+#: includes/meta-box/inc/fields/post.php:35
+msgid "Select a post"
+msgstr ""
+
+#: includes/meta-box/inc/fields/post.php:39
+#: includes/meta-box/inc/fields/taxonomy.php:51
+#, php-format
+msgid "Select a %s"
+msgstr ""
+
+#: includes/meta-box/inc/fields/select.php:91
+msgid "All"
+msgstr ""
+
+#: includes/meta-box/inc/fields/select.php:91
+msgid "None"
+msgstr ""
+
+#: includes/meta-box/inc/fields/taxonomy.php:47
+msgid "Select a term"
+msgstr ""
+
+#: includes/meta-box/inc/fields/user.php:34
+msgid "Select an user"
+msgstr ""
+
+#: includes/meta-box/inc/validation.php:42
+msgid "Corrija los errores remarcados e intente de nuevo."
+msgstr "Fix the errors and try again."
+
+#: index.php:110 single.php:109 tag.php:107
+msgid "No hay nada publicado en esta etiqueta."
+msgstr "No published in this tag."
+
+#: options.php:31
+msgid "Configuración General"
+msgstr "General Settings"
+
+#: options.php:36
+msgid "Logotipo del Sitio Web"
+msgstr "Web Site Logo"
+
+#: options.php:37
+msgid "Selecciona el logo a mostrar en la web, tamaño 100px x 100px."
+msgstr ""
+
+#: options.php:43
+msgid "Titular del Portfolio de la home"
+msgstr ""
+
+#: options.php:44
+msgid "Introduca un titular para el portfolio de la home."
+msgstr ""
+
+#: options.php:53
+msgid "Mensaje para el porfolio de la home"
+msgstr ""
+
+#: options.php:54
+msgid "Introduzca un contenido o mensaje para el porfolio de la home."
+msgstr ""
+
+#: options.php:63
+msgid "Meta: Palabras claves"
+msgstr "Meta: Kew words"
+
+#: options.php:64
+msgid ""
+"Introducir palabras (separadas por comas) claves de la web que son útiles "
+"para algunos buscadores. Muy importantes para SEO. Máximo 160 caracteres."
+msgstr ""
+
+#: options.php:73
+msgid "Meta: Descripción de la web"
+msgstr "Meta: web description"
+
+#: options.php:74
+msgid ""
+"Introducir una descripción breve acerca de lo que trata esta web. Muy "
+"importante para el SEO. Máximo 160 caracteres."
+msgstr ""
+
+#: options.php:83
+msgid "Google Analitycs"
+msgstr "Google Analitycs"
+
+#: options.php:84
+msgid "Introduzca el script de Google Analitycs."
+msgstr "Enter Google Analitycs code."
+
+#: options.php:125
+msgid "Redes Sociales"
+msgstr "Social Networks"
+
+#: options.php:130
+msgid "Facebook"
+msgstr "Facebook"
+
+#: options.php:131
+msgid "Introduzca el enlace a Facebook."
+msgstr "Enter your profile's URL of Facebook."
+
+#: options.php:141
+msgid "Twitter"
+msgstr "Twitter"
+
+#: options.php:142
+msgid "Introduzca su enlace a Twitter."
+msgstr "Enter your profile's URL of Twitter."
+
+#: options.php:161
+msgid "LinkedIn"
+msgstr "Linkedin"
+
+#: options.php:162
+msgid "Introduzca su enlace al perfil de LinkedIn."
+msgstr "Enter your profile's URL of Linkedin."
+
+#: options.php:195
+msgid "Datos de Contacto"
+msgstr "Data Contact"
+
+#: options.php:200
+msgid "E-mail de contacto"
+msgstr "E-Mail contact"
+
+#: options.php:201
+msgid ""
+"Introduzca el Email de contacto, se mostrará al pie del sitio web en un "
+"ícono."
+msgstr "Enter you email. It will show on footer's web."
+
+#: options.php:210
+msgid "Teléfono Fijo"
+msgstr "Telephone"
+
+#: options.php:211
+msgid "Introduzca su teléfono fijo incluyendo el código de área."
+msgstr "Enter your telephone number including area code."
+
+#: options.php:220
+msgid "Celular con WhatsApp"
+msgstr "Whatsapp number"
+
+#: options.php:221
+msgid "Introduzca su teléfono celular incluyendo el código de área."
+msgstr "Enter your cellular number including area code."
+
+#: options.php:237
+msgid "Dirección"
+msgstr "Address"
+
+#: options.php:238
+msgid "Introduzca calle, número, piso, departamento."
+msgstr "Street, number, floor, departament, etc."
+
+#: options.php:240
+msgid "Man Sartín 453, Dpto. 3°A."
+msgstr "San Martín 1234, 4° D."
+
+#: options.php:247
+msgid "Localidad"
+msgstr "City or Town"
+
+#: options.php:248
+msgid "Ciudad, pueblo."
+msgstr "City or Town"
+
+#: options.php:250
+msgid "Las Catitas."
+msgstr "Las Catitas."
+
+#: options.php:257
+msgid "Departamento"
+msgstr "District."
+
+#: options.php:258
+msgid "Departamento, partido, región."
+msgstr "District."
+
+#: options.php:260
+msgid "Tulumba."
+msgstr "Tulumba."
+
+#: options.php:267
+msgid "Código Postal"
+msgstr "Postal Code."
+
+#: options.php:268
+msgid "Código Postal."
+msgstr "Postal Code."
+
+#: options.php:270
+msgid "5001."
+msgstr "5001."
+
+#: options.php:278
+msgid "Provincia del país."
+msgstr "Estate"
+
+#: options.php:280
+msgid "Tierra del Fuego."
+msgstr "Conecticut"
+
+#: options.php:287
+msgid "País"
+msgstr "Country"
+
+#: options.php:288
+msgid "País donde se encuentra la empresa."
+msgstr "Country."
+
+#: options.php:290
+msgid "República no tan Checa."
+msgstr "Brazil"
+
+#: options.php:298
+msgid "Horario de atención"
+msgstr "Business hours"
+
+#: options.php:299
+msgid "Introduzca los días de la semana y el horario de atención al público."
+msgstr "Enter the days and business hours."
+
+#: options.php:301
+msgid "Domingos a Martes; de 2 de la tarde a 14hs."
+msgstr "Sundays to Tuesdays; from 2:00pm to 14:00hs."
+
+#: page.php:91
+msgid "No hay nada publicado."
+msgstr "No published."
+
+#: search.php:26
+msgid "Buscando: "
+msgstr "Searching:"
+
+#: search.php:109
+msgid "No encontramos nada. Intenta buscar otra cosa."
+msgstr "No search. Try find another thing."
+
+#: sidebar.php:27
+msgid "Trabajos Realizados"
+msgstr "Projects finished"
+
+#: single.php:51
+msgid "Contenido"
+msgstr "Content"
+
+#: tag.php:23
+msgid "Etiquetas: "
+msgstr "Tags:"
+
+#~ msgid "Regenerate the thumbnails for this single image"
+#~ msgstr "Regenerate the thumbnails for this single image"
+
+#~ msgid "Regenerate Thumbnails"
+#~ msgstr "Regenerate Thumbnails"

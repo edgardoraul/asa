@@ -119,7 +119,7 @@ function asa_register_meta_boxes( $meta_boxes )
 			*/
 			// Un select de enlazes a páginas
 			array(
-				'name'        => __( '', 'asa' ),
+				'name'        => __( 'Seleccionar', 'asa' ),
 				'id'          => "asa_select",
 				'type'        => 'select',
 
