@@ -10,9 +10,10 @@
 // Variables útiles
 $meta_description 				= of_get_option('meta_description', '');
 $meta_keywords 					= of_get_option('meta_keywords2', '');
-$logo_uploader 					= of_get_option('logo_uploader', '');
 $facebook_contact 				= of_get_option('facebook_contact', '');
 $twitter_contact  				= of_get_option('twitter_contact', '');
+$logo_uploader 					= of_get_option('logo_uploader', '');
+
 $webmoderna_meta_keywords 		= rwmb_meta('webmoderna_meta_keywords', '');
 $webmoderna_meta_descripcion 	= rwmb_meta('webmoderna_meta_descripcion', '');
 $meta_paginas_meta_descripcion 	= rwmb_meta('meta_paginas_meta_descripcion', '');

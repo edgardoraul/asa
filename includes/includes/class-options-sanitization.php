@@ -313,10 +313,10 @@ add_filter( 'of_font_face', 'of_sanitize_font_face' );
  */
 function of_recognized_background_repeat() {
 	$default = array(
-		'no-repeat' => __( 'No Repetir', 'webmoderna' ),
-		'repeat-x'  => __( 'Repetir Horizontalmente', 'webmoderna' ),
-		'repeat-y'  => __( 'Repetir Verticalmente', 'webmoderna' ),
-		'repeat'    => __( 'Repetir Todo', 'webmoderna' ),
+		'no-repeat' => __( 'No Repetir', 'options_framework_theme' ),
+		'repeat-x'  => __( 'Repetir Horizontalmente', 'options_framework_theme' ),
+		'repeat-y'  => __( 'Repetir Verticalmente', 'options_framework_theme' ),
+		'repeat'    => __( 'Repetir Todo', 'options_framework_theme' ),
 		);
 	return apply_filters( 'of_recognized_background_repeat', $default );
 }
@@ -328,15 +328,15 @@ function of_recognized_background_repeat() {
  */
 function of_recognized_background_position() {
 	$default = array(
-		'top left'      => __( 'Arriba Izquierda', 'webmoderna' ),
-		'top center'    => __( 'Arriba Centro', 'webmoderna' ),
-		'top right'     => __( 'Arriba Derecha', 'webmoderna' ),
-		'center left'   => __( 'Medio Izquierda', 'webmoderna' ),
-		'center center' => __( 'Medio Centro', 'webmoderna' ),
-		'center right'  => __( 'Medio Derecha', 'webmoderna' ),
-		'bottom left'   => __( 'Abajo Izquierda', 'webmoderna' ),
-		'bottom center' => __( 'Abajo Centro', 'webmoderna' ),
-		'bottom right'  => __( 'Abajo Derecha', 'webmoderna')
+		'top left'      => __( 'Arriba Izquierda', 'options_framework_theme' ),
+		'top center'    => __( 'Arriba Centro', 'options_framework_theme' ),
+		'top right'     => __( 'Arriba Derecha', 'options_framework_theme' ),
+		'center left'   => __( 'Medio Izquierda', 'options_framework_theme' ),
+		'center center' => __( 'Medio Centro', 'options_framework_theme' ),
+		'center right'  => __( 'Medio Derecha', 'options_framework_theme' ),
+		'bottom left'   => __( 'Abajo Izquierda', 'options_framework_theme' ),
+		'bottom center' => __( 'Abajo Centro', 'options_framework_theme' ),
+		'bottom right'  => __( 'Abajo Derecha', 'options_framework_theme')
 		);
 	return apply_filters( 'of_recognized_background_position', $default );
 }
@@ -348,8 +348,8 @@ function of_recognized_background_position() {
  */
 function of_recognized_background_attachment() {
 	$default = array(
-		'scroll' => __( 'Desplazamiento normal', 'webmoderna' ),
-		'fixed'  => __( 'Fija en un lugar', 'webmoderna')
+		'scroll' => __( 'Desplazamiento normal', 'options_framework_theme' ),
+		'fixed'  => __( 'Fija en un lugar', 'options_framework_theme')
 		);
 	return apply_filters( 'of_recognized_background_attachment', $default );
 }
@@ -421,10 +421,10 @@ function of_recognized_font_faces() {
  */
 function of_recognized_font_styles() {
 	$default = array(
-		'normal'      => __( 'Normal', 'webmoderna' ),
-		'italic'      => __( 'Cursiva', 'webmoderna' ),
-		'bold'        => __( 'Negrita', 'webmoderna' ),
-		'bold italic' => __( 'Negrita Cursiva', 'webmoderna' )
+		'normal'      => __( 'Normal', 'options_framework_theme' ),
+		'italic'      => __( 'Cursiva', 'options_framework_theme' ),
+		'bold'        => __( 'Negrita', 'options_framework_theme' ),
+		'bold italic' => __( 'Negrita Cursiva', 'options_framework_theme' )
 		);
 	return apply_filters( 'of_recognized_font_styles', $default );
 }

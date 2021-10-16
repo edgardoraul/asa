@@ -88,8 +88,8 @@ class Options_Framework_Admin {
             'mode' => 'submenu',
 
             // Submenu default settings
-            'page_title' => __( 'Opciones del sitio web', 'webmoderna' ),
-			'menu_title' => __( 'Opciones del sitio web', 'webmoderna' ),
+            'page_title' => __( 'Opciones del sitio web', 'options_framework_theme' ),
+			'menu_title' => __( 'Opciones del sitio web', 'options_framework_theme' ),
 			'capability' => 'edit_theme_options',
 			'menu_slug' => 'options-framework',
             'parent_slug' => 'themes.php',
@@ -200,8 +200,8 @@ class Options_Framework_Admin {
 				<?php settings_fields( 'optionsframework' ); ?>
 				<?php Options_Framework_Interface::optionsframework_fields(); /* Settings */ ?>
 				<div id="optionsframework-submit">
-					<input type="submit" class="button-primary" name="update" value="<?php esc_attr_e( 'Guardar Opciones', 'webmoderna' ); ?>" />
-					<input type="submit" class="reset-button button-secondary" name="reset" value="<?php esc_attr_e( 'Restaurar valores por defecto', 'webmoderna' ); ?>" onclick="return confirm( '<?php print esc_js( __( 'Click OK para resetear. Cualquier cambio hecho se perderá!', 'webmoderna' ) ); ?>' );" />
+					<input type="submit" class="button-primary" name="update" value="<?php esc_attr_e( 'Guardar Opciones', 'options_framework_theme' ); ?>" />
+					<input type="submit" class="reset-button button-secondary" name="reset" value="<?php esc_attr_e( 'Restaurar valores por defecto', 'options_framework_theme' ); ?>" onclick="return confirm( '<?php print esc_js( __( 'Click OK para resetear. Cualquier cambio hecho se perderá!', 'options_framework_theme' ) ); ?>' );" />
 					<div class="clear"></div>
 				</div>
 				</form>
@@ -232,7 +232,7 @@ class Options_Framework_Admin {
 		 */
 
 		if ( isset( $_POST['reset'] ) ) {
-			add_settings_error( 'options-framework', 'restore_defaults', __( 'Configuraciones por defecto restauradas.', 'webmoderna' ), 'updated fade' );
+			add_settings_error( 'options-framework', 'restore_defaults', __( 'Configuraciones por defecto restauradas.', 'options_framework_theme' ), 'updated fade' );
 			return $this->get_default_values();
 		}
 
@@ -286,7 +286,7 @@ class Options_Framework_Admin {
 	 */
 
 	function save_options_notice() {
-		add_settings_error( 'options-framework', 'save_options', __( 'Opciones guardadas.', 'webmoderna' ), 'updated fade' );
+		add_settings_error( 'options-framework', 'save_options', __( 'Opciones guardadas.', 'options_framework_theme' ), 'updated fade' );
 	}
 
 	/**

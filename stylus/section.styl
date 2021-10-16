@@ -17,13 +17,9 @@
 		margin 3px
 		overflow hidden
 		position relative
-		// max-width 45%
-		// min-width 45%
-		// vertical-align top
 		
 		&__content
 			color gris_suave
-			// display inline-block
 			font-family fuente_heading
 			font-size $em*0.9
 			line-height 150%
@@ -83,14 +79,16 @@
 
 		&__article
 			box-sizing border-box
-			// display inline-block
-			// vertical-align top
+
 
 @media all and (min-width: 1200px)
 	.centrales
-		flex-wrap nowrap
-		justify-content space-between
+		flex-wrap wrap
+		// justify-content space-between
 
+		&__article
+			flex: 1 1 auto
+			max-width 33%
 /*
 		margin-bottom 1em
 		margin-top 0.5em

@@ -2,10 +2,6 @@
 /**
  * A unique identifier is defined to store the options in the database and reference them from the theme.
  */
-/*function optionsframework_option_name() {
-	// Change this to use your theme slug
-	return 'options-framework-theme';
-}*/
 function optionsframework_option_name()
 {
 
@@ -91,7 +87,7 @@ function optionsframework_options()
 		'class'			=>	'',
 		'type'			=>	'textarea',
 	);
-
+/* 
 	// Obterner claves privadas y publicas de reCaptcha
 	$options[] = array(
 		'name' 			=> __('Conseguir las claves públicas y privadas para Google reCaptcha', 'options_framework_theme'),
@@ -121,7 +117,7 @@ function optionsframework_options()
 		'placeholder'	=> 'qwoeg9384sd98wepa...',
 		'class'			=> '',
 		'type' 			=> 'text',
-	);
+	); */
 
 	/*====================================================================================*/
 	/* =================== Pestaña información de contacto ============================== */
@@ -149,7 +145,7 @@ function optionsframework_options()
 		'class' => '',
 		'type' => 'text',
 	);
-
+/* 
 	// Skype
 	$options[] = array(
 		'name' => __('Skype', 'options_framework_theme'),
@@ -158,7 +154,7 @@ function optionsframework_options()
 		'placeholder' => '"fulano_de_tal" o también "fulano_de_tal@outlook.com"',
 		'class' => '',
 		'type' => 'text',
-	);
+	); */
 
 	// LinkedIn
 	$options[] = array(
@@ -179,7 +175,7 @@ function optionsframework_options()
 		'placeholder' => '<a class="addthis_button alignright" href="http://www.addthis.com/bookmark.php?v=250&amp;username=xa-4c8ff9282b8657a0">...',
 		'class' => '',
 		'type' => 'textarea'
-	);*/
+	);
 	$options[] = array(
 		'name' => __('Compartir en Redes Sociales', 'options_framework_theme'),
 		'desc' => __('Introduzca solamente el script de AddThis.', 'options_framework_theme'),
@@ -188,16 +184,10 @@ function optionsframework_options()
 		'class' => '',
 		'type' => 'text',
 	);
+	*/
+	
 
-
-	$facebook_contact = of_get_option('facebook_contact','');
-	$twitter_contact = of_get_option('twitter_contact','');
-	$linkedin_contact = of_get_option('linkedin_contact', '');
-	$google_plus_contact = of_get_option('google_plus_contact','');
-	$email_contact = of_get_option('email_contact','');
-	$email_contact_ventas = of_get_option('email_contact_ventas','');
-	$background_de_la_web = of_get_option('background_de_la_web','');
-
+	// $facebook_contact = of_get_option('facebook_contact','');
 
 	/* ============================================================================== */
 	/* Panel de la home page =========================================================*/

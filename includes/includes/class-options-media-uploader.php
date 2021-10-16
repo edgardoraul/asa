@@ -60,15 +60,15 @@ class Options_Framework_Media_Uploader {
 		if ( $value ) {
 			$class = ' has-file';
 		}
-		$output .= '<input id="' . $id . '" class="upload' . $class . '" type="text" name="'.$name.'" value="' . $value . '" placeholder="' . __('No hay archivo', 'webmoderna') .'" />' . "\n";
+		$output .= '<input id="' . $id . '" class="upload' . $class . '" type="text" name="'.$name.'" value="' . $value . '" placeholder="' . __('No hay archivo', 'options_framework_theme') .'" />' . "\n";
 		if ( function_exists( 'wp_enqueue_media' ) ) {
 			if ( ( $value == '' ) ) {
-				$output .= '<input id="upload-' . $id . '" class="upload-button button" type="button" value="' . __( 'Subir', 'webmoderna' ) . '" />' . "\n";
+				$output .= '<input id="upload-' . $id . '" class="upload-button button" type="button" value="' . __( 'Subir', 'options_framework_theme' ) . '" />' . "\n";
 			} else {
-				$output .= '<input id="remove-' . $id . '" class="remove-file button" type="button" value="' . __( 'Remover', 'webmoderna' ) . '" />' . "\n";
+				$output .= '<input id="remove-' . $id . '" class="remove-file button" type="button" value="' . __( 'Remover', 'options_framework_theme' ) . '" />' . "\n";
 			}
 		} else {
-			$output .= '<p><i>' . __( 'Actualiza tu versión de WordPress para un completo soporte multi-media.', 'webmoderna' ) . '</i></p>';
+			$output .= '<p><i>' . __( 'Actualiza tu versión de WordPress para un completo soporte multi-media.', 'options_framework_theme' ) . '</i></p>';
 		}
 
 		if ( $_desc != '' ) {
@@ -92,7 +92,7 @@ class Options_Framework_Media_Uploader {
 				$output .= '';
 
 				// Standard generic output if it's not an image.
-				$title = __( 'Ver archivo', 'webmoderna' );
+				$title = __( 'Ver archivo', 'options_framework_theme' );
 				$output .= '<div class="no-image"><span class="file_link"><a href="' . $value . '" target="_blank" rel="external">'.$title.'</a></span></div>';
 			}
 		}
@@ -116,8 +116,8 @@ class Options_Framework_Media_Uploader {
 		wp_register_script( 'of-media-uploader', OPTIONS_FRAMEWORK_DIRECTORY .'js/media-uploader.js', array( 'jquery' ), Options_Framework::VERSION );
 		wp_enqueue_script( 'of-media-uploader' );
 		wp_localize_script( 'of-media-uploader', 'optionsframework_l10n', array(
-			'upload' => __( 'Subir', 'webmoderna' ),
-			'remove' => __( 'Remover', 'webmoderna' )
+			'upload' => __( 'Subir', 'options_framework_theme' ),
+			'remove' => __( 'Remover', 'options_framework_theme' )
 		) );
 	}
 }
