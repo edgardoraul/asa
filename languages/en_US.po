@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Industrias ASA S.A.\n"
-"POT-Creation-Date: 2021-10-16 21:05-0300\n"
-"PO-Revision-Date: 2021-10-16 21:08-0300\n"
+"POT-Creation-Date: 2021-10-16 23:01-0300\n"
+"PO-Revision-Date: 2021-10-16 23:01-0300\n"
 "Last-Translator: \n"
 "Language-Team: WebModerna<conacto@webmoderna.com.ar>\n"
 "Language: en\n"
@@ -12,7 +12,8 @@ msgstr ""
 "X-Generator: Poedit 2.0.6\n"
 "X-Poedit-Basepath: ..\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Poedit-KeywordsList: __;_e;_x\n"
+"X-Poedit-KeywordsList: _e;__;_x\n"
+"X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: js\n"
 
@@ -275,19 +276,19 @@ msgid "Debugging Information"
 msgstr ""
 
 #: includes/04._regenerate-thumbnails.php:200
-#, php-format
+#, fuzzy, php-format
 msgid "Total Images: %s"
-msgstr ""
+msgstr "%s"
 
 #: includes/04._regenerate-thumbnails.php:201
-#, php-format
+#, fuzzy, php-format
 msgid "Images Resized: %s"
-msgstr ""
+msgstr "%s"
 
 #: includes/04._regenerate-thumbnails.php:202
-#, php-format
+#, fuzzy, php-format
 msgid "Resize Failures: %s"
-msgstr ""
+msgstr "%s"
 
 #: includes/04._regenerate-thumbnails.php:233
 msgid "Stopping..."
@@ -330,8 +331,9 @@ msgid "To begin, just press the button below."
 msgstr ""
 
 #: includes/04._regenerate-thumbnails.php:336
+#, fuzzy
 msgid "Regenerate All Thumbnails"
-msgstr ""
+msgstr "Regenerate Thumbnails"
 
 #: includes/04._regenerate-thumbnails.php:360
 #, php-format
@@ -809,7 +811,7 @@ msgstr ""
 
 #: includes/meta-box/inc/field.php:196
 msgid "+ Añadir otro"
-msgstr ""
+msgstr "+ Agregar otro"
 
 #: includes/meta-box/inc/fields/autocomplete.php:14
 #: includes/meta-box/inc/fields/autocomplete.php:75
@@ -879,8 +881,9 @@ msgid "Upload Images"
 msgstr ""
 
 #: includes/meta-box/inc/fields/image.php:62
+#, fuzzy
 msgid "+ Add new image"
-msgstr ""
+msgstr "Regenerate the thumbnails for this single image"
 
 #: includes/meta-box/inc/fields/map.php:49
 msgid "Find Address"
@@ -928,9 +931,9 @@ msgstr ""
 
 #: includes/meta-box/inc/fields/post.php:39
 #: includes/meta-box/inc/fields/taxonomy.php:51
-#, php-format
+#, fuzzy, php-format
 msgid "Select a %s"
-msgstr ""
+msgstr "%s"
 
 #: includes/meta-box/inc/fields/select.php:91
 msgid "All"
@@ -1096,7 +1099,7 @@ msgstr "Las Catitas."
 
 #: options.php:257
 msgid "Departamento"
-msgstr "District."
+msgstr "District"
 
 #: options.php:258
 msgid "Departamento, partido, región."
@@ -1108,7 +1111,7 @@ msgstr "Tulumba."
 
 #: options.php:267
 msgid "Código Postal"
-msgstr "Postal Code."
+msgstr "Postal Code"
 
 #: options.php:268
 msgid "Código Postal."
@@ -1120,11 +1123,11 @@ msgstr "5001."
 
 #: options.php:278
 msgid "Provincia del país."
-msgstr "Estate"
+msgstr "Estate."
 
 #: options.php:280
 msgid "Tierra del Fuego."
-msgstr "Conecticut"
+msgstr "Conecticut."
 
 #: options.php:287
 msgid "País"
@@ -1136,7 +1139,7 @@ msgstr "Country."
 
 #: options.php:290
 msgid "República no tan Checa."
-msgstr "Brazil"
+msgstr "Brazil."
 
 #: options.php:298
 msgid "Horario de atención"
@@ -1156,7 +1159,7 @@ msgstr "No published."
 
 #: search.php:26
 msgid "Buscando: "
-msgstr "Searching:"
+msgstr "Searching: "
 
 #: search.php:109
 msgid "No encontramos nada. Intenta buscar otra cosa."
@@ -1172,7 +1175,7 @@ msgstr "Content"
 
 #: tag.php:23
 msgid "Etiquetas: "
-msgstr "Tags:"
+msgstr "Tags: "
 
 #~ msgid "Regenerate the thumbnails for this single image"
 #~ msgstr "Regenerate the thumbnails for this single image"
