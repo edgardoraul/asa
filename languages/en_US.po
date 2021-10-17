@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Industrias ASA S.A.\n"
-"POT-Creation-Date: 2021-10-16 20:09-0300\n"
-"PO-Revision-Date: 2021-10-16 20:45-0300\n"
+"POT-Creation-Date: 2021-10-16 21:05-0300\n"
+"PO-Revision-Date: 2021-10-16 21:08-0300\n"
 "Last-Translator: \n"
 "Language-Team: WebModerna<conacto@webmoderna.com.ar>\n"
 "Language: en\n"
@@ -966,23 +966,23 @@ msgstr "Web Site Logo"
 
 #: options.php:37
 msgid "Selecciona el logo a mostrar en la web, tamaño 100px x 100px."
-msgstr ""
+msgstr "Select a logo to show on web. Size must be 100 x 100px."
 
 #: options.php:43
-msgid "Titular del Portfolio de la home"
-msgstr ""
+msgid "Titular a mostrar home"
+msgstr "Title to show on front page"
 
 #: options.php:44
-msgid "Introduca un titular para el portfolio de la home."
-msgstr ""
+msgid "Introduca un titular para mostrar en la home."
+msgstr "Enter a title to show on front page."
 
 #: options.php:53
-msgid "Mensaje para el porfolio de la home"
-msgstr ""
+msgid "Mensaje a mostrar en la home"
+msgstr "Message of front page"
 
 #: options.php:54
-msgid "Introduzca un contenido o mensaje para el porfolio de la home."
-msgstr ""
+msgid "Introduzca un contenido o mensaje para mostrar en la home."
+msgstr "Enter a message to show on front page."
 
 #: options.php:63
 msgid "Meta: Palabras claves"
@@ -992,7 +992,7 @@ msgstr "Meta: Kew words"
 msgid ""
 "Introducir palabras (separadas por comas) claves de la web que son útiles "
 "para algunos buscadores. Muy importantes para SEO. Máximo 160 caracteres."
-msgstr ""
+msgstr "Enter a words separated by comas. Usefully for SEO."
 
 #: options.php:73
 msgid "Meta: Descripción de la web"
@@ -1002,7 +1002,7 @@ msgstr "Meta: web description"
 msgid ""
 "Introducir una descripción breve acerca de lo que trata esta web. Muy "
 "importante para el SEO. Máximo 160 caracteres."
-msgstr ""
+msgstr "Enter a description about your web page. Usefully for SEO."
 
 #: options.php:83
 msgid "Google Analitycs"

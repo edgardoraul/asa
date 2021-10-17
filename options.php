@@ -40,8 +40,8 @@ function optionsframework_options()
 
 	// Titular del Portfolio de la home
 	$options[]	=	array(
-		'name'			=>	__('Titular del Portfolio de la home', 'options_framework_theme'),
-		'desc'			=>	__('Introduca un titular para el portfolio de la home.', 'options_framework_theme'),
+		'name'			=>	__('Titular a mostrar home', 'options_framework_theme'),
+		'desc'			=>	__('Introduca un titular para mostrar en la home.', 'options_framework_theme'),
 		'id'			=>	'portfolio_home',
 		'placeholder'	=>	'Titular de ejemplo...',
 		'class'			=>	'',
@@ -50,8 +50,8 @@ function optionsframework_options()
 
 	// Contenido o mensaje para el porfolio de la home
 	$options[]	=	array(
-		'name'			=>	__('Mensaje para el porfolio de la home', 'options_framework_theme'),
-		'desc'			=>	__('Introduzca un contenido o mensaje para el porfolio de la home.', 'options_framework_theme'),
+		'name'			=>	__('Mensaje a mostrar en la home', 'options_framework_theme'),
+		'desc'			=>	__('Introduzca un contenido o mensaje para mostrar en la home.', 'options_framework_theme'),
 		'id'			=>	'contenido_portfolio_home',
 		'placeholder'	=>	'Contenido de ejemplo...',
 		'class'			=>	'',

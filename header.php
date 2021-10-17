@@ -228,14 +228,16 @@ $meta_paginas_meta_keywords 	= rwmb_meta('meta_paginas_meta_keywords', '');
 			</nav>
 			
 			<!-- Traductor -->
-			<div id="traductor">
-				<?php
-					if ( function_exists( 'the_msls' ) )
-					{
-						the_msls();
-					}
-				?>
-			</div>
+			<?php
+				if ( function_exists( 'the_msls' ) )
+				{
+					echo '<div class="traductor">';
+					the_msls();
+					echo '</div>';
+				}
+			?>
+			
+			
 
 			<!-- Limpiador -->
 			<div class="clearboth"></div>
