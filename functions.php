@@ -153,17 +153,6 @@ function admin_favicon()
 add_action('admin_head', 'admin_favicon', 1);
 
 
-// Deshabilitar el mensaje de actualización del WordPress
-add_action( 'admin_head', 'ocultar_aviso_actualizacion', 1 );
-function ocultar_aviso_actualizacion()
-{
-	if ( !current_user_can( 'update_core' ) )
-	{
-		remove_action( 'admin_notices', 'update_nag', 3 );
-	}
-}
-
-
 // Agregar clases a los enlaces de los posts next y back
 function add_class_next_post_link($html)
 {
@@ -191,7 +180,7 @@ add_action( 'get_header','enable_threaded_comments', 1 );
 
 
 // Desactivar el código HTML en los comentarios
-// add_filter('pre_comment_content', 'wp_specialchars');
+add_filter('pre_comment_content', 'wp_specialchars');
 
 
 // Remover clases automáticas del the_post_thumbnail
@@ -362,15 +351,15 @@ add_filter( 'the_category', 'remove_category_list_rel' );
 */
 
 // Eliminar css y scripts de comentarios cuando no hagan falta
-/*function clean_header()
+function clean_header()
 {
 	wp_deregister_script( 'comment-reply' );
 };
-add_action( 'init', 'clean_header', 1 );*/
+add_action( 'init', 'clean_header', 1 );
 
 
 // Cargar scripts para comentarios solo en single.php
-/*function wd_single_scripts()
+function wd_single_scripts()
 {
 	if( is_singular() )
 	{
@@ -378,7 +367,7 @@ add_action( 'init', 'clean_header', 1 );*/
 		wp_enqueue_script( 'comment-reply' );
 	}
 }
-add_action('wp_print_scripts', 'wd_single_scripts', 1);*/
+add_action('wp_print_scripts', 'wd_single_scripts', 1);
 
 
 // Registrar las menúes de navegación
@@ -425,9 +414,9 @@ add_filter( "mce_buttons_3", "habilitar_mas_botones" );
 
 
 // Para hacer posible que esta plantilla pueda cambiar de idioma
-load_theme_textdomain( 'asa', TEMPLATEPATH . '/language' );
+load_theme_textdomain( 'asa', TEMPLATEPATH . '/languages' );
 $locale = get_locale();
-$locale_file = TEMPLATEPATH . "/language/$locale.php";
+$locale_file = TEMPLATEPATH . "/languages/$locale.php";
 if( is_readable( $locale_file ) ) require_once( $locale_file );
 
 
