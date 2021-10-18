@@ -419,6 +419,13 @@ $locale = get_locale();
 $locale_file = TEMPLATEPATH . "/languages/$locale.php";
 if( is_readable( $locale_file ) ) require_once( $locale_file );
 
+// Reducir la calidad de las imágenes
+add_filter( 'jpeg_quality', 'establecer_nivel_calidad_imagenes_subidas' );
+function establecer_nivel_calidad_imagenes_subidas()
+{
+	return 50;
+}
+
 
 // Detén las adivinanzas de URLs de WordPress
 add_filter( 'redirect_canonical', 'stop_guessing' );

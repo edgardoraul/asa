@@ -3,12 +3,12 @@
 function the_breadcrums()
 {
 // Defino la ubicación como una variable; así la puedo cargar en la función del breadcrums.
-	// $ubicacion = __('Ud. está aquí: ', 'webmoderna');
+	// $ubicacion = __('Ud. está aquí: ', 'asa');
 	echo '<div class="breadcrums"><ul class="breadcrums__list" itemscope itemtype="http://schema.org/BreadcrumbList">';
 	if ( !is_home() )
 	{
-		echo '<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" class="breadcrums__list__item">' . __('Tu estás aquí: ', 'webmoderna') . '</li>';
-		echo '<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" class="breadcrums__list__item"><a itemprop="item" href="' . get_option('home') . '">' . __('Inicio', 'webmoderna') . '</a></li>';
+		echo '<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" class="breadcrums__list__item">' . __('Vos estás aquí: ', 'asa') . '</li>';
+		echo '<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" class="breadcrums__list__item"><a itemprop="item" href="' . get_option('home') . '">' . __('Inicio', 'asa') . '</a></li>';
 
 		if ( is_category() )
 		{

@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Industrias ASA S.A.\n"
-"POT-Creation-Date: 2021-10-16 23:01-0300\n"
-"PO-Revision-Date: 2021-10-16 23:01-0300\n"
+"POT-Creation-Date: 2021-10-17 22:37-0300\n"
+"PO-Revision-Date: 2021-10-17 22:37-0300\n"
 "Last-Translator: \n"
 "Language-Team: WebModerna<conacto@webmoderna.com.ar>\n"
 "Language: en\n"
@@ -116,31 +116,31 @@ msgstr "All rights reserved"
 msgid "Ir hacia arriba"
 msgstr "Go to top"
 
-#: functions.php:170 includes/11._paginacion.php:8
+#: functions.php:159 includes/11._paginacion.php:8
 msgid "Siguiente"
 msgstr "Next"
 
-#: functions.php:176
+#: functions.php:165
 msgid "Anterior"
 msgstr "Previous"
 
-#: functions.php:330
+#: functions.php:319
 msgid "Desarrollado por"
 msgstr "Powered by"
 
-#: functions.php:330
+#: functions.php:319
 msgid "WebModerna | Estudio Contable y Agencia Web"
 msgstr "WebModerna | Accountant Studio & Web Agency"
 
-#: functions.php:386
+#: functions.php:375
 msgid "Menú Principal"
 msgstr "Main Menu"
 
-#: functions.php:449
+#: functions.php:445
 msgid "¡Sal de mi jardín! ¡AHORA MISMO!"
 msgstr "Get out from my garden!"
 
-#: functions.php:485
+#: functions.php:481
 msgid ""
 "Error: tu título sobrepasa el máximo de palabras razonable, vuelve atrás y "
 "mejóralo, tus lectores te lo agradecerán."
@@ -427,7 +427,7 @@ msgstr ""
 
 #: includes/08._configuracion_metabox.php:580
 msgid "Subir varias fotos desde aquí. "
-msgstr "Upload many pictures from here."
+msgstr "Upload many pictures from here. "
 
 #: includes/09._thumbnails.php:61
 msgid "Tamaño recortado 0"
@@ -522,8 +522,8 @@ msgid "Tamaño adaptable 7"
 msgstr "Auto size 7"
 
 #: includes/10._breadcrums.php:10
-msgid "Tu estás aquí: "
-msgstr "You are here:"
+msgid "Vos estás aquí: "
+msgstr "You are here: "
 
 #: includes/10._breadcrums.php:11
 msgid "Inicio"
@@ -563,7 +563,7 @@ msgstr "Home Flyers"
 
 #: includes/21._testimonios.php:11
 msgid "Cartel Archives"
-msgstr "tamaño adaptable"
+msgstr "Flyer Archives"
 
 #: includes/21._testimonios.php:12
 msgid "Cartel superior:"
@@ -1091,7 +1091,7 @@ msgstr "City or Town"
 
 #: options.php:248
 msgid "Ciudad, pueblo."
-msgstr "City or Town"
+msgstr "City or Town."
 
 #: options.php:250
 msgid "Las Catitas."
@@ -1165,7 +1165,7 @@ msgstr "Searching: "
 msgid "No encontramos nada. Intenta buscar otra cosa."
 msgstr "No search. Try find another thing."
 
-#: sidebar.php:27
+#: sidebar.php:16
 msgid "Trabajos Realizados"
 msgstr "Projects finished"
 

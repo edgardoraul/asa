@@ -1,12 +1,12 @@
 <?php // Paginación avanzada
 function pagination( $pages = '', $range = 2 )
 {
-	$pagina_palabra			= __('Página', 'webmoderna');
-	$de_palabra				= __('de', 'webmoderna');
-	$primero				= __('Primero', 'webmoderna');
-	$atras					= __('Atrás', 'webmoderna');
-	$siguiente				= __('Siguiente', 'webmoderna');
-	$ultimo					= __('Último', 'webmoderna');
+	$pagina_palabra			= __('Página', 'asa');
+	$de_palabra				= __('de', 'asa');
+	$primero				= __('Primero', 'asa');
+	$atras					= __('Atrás', 'asa');
+	$siguiente				= __('Siguiente', 'asa');
+	$ultimo					= __('Último', 'asa');
 	$showitems				= ( $range * 2 ) + 1;
 	global $paged;
 	if( empty( $paged ) ) $paged = 1;
