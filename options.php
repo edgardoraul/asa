@@ -145,16 +145,16 @@ function optionsframework_options()
 		'class' => '',
 		'type' => 'text',
 	);
-/* 
-	// Skype
+
+	// Instagram
 	$options[] = array(
-		'name' => __('Skype', 'options_framework_theme'),
-		'desc' => __('Introduzca su usuario de Skype o email de Outlook.com, Msn, Hotmail (Deben estar habilitados para hacer videoconferencia).', 'options_framework_theme'),
-		'id' => 'skype_contact',
-		'placeholder' => '"fulano_de_tal" o también "fulano_de_tal@outlook.com"',
+		'name' => __('Instagram', 'options_framework_theme'),
+		'desc' => __('Introduzca su usuario de Instagram.', 'options_framework_theme'),
+		'id' => 'instagram_contact',
+		'placeholder' => '"@fulano_de_tal"',
 		'class' => '',
 		'type' => 'text',
-	); */
+	);
 
 	// LinkedIn
 	$options[] = array(

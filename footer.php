@@ -8,16 +8,13 @@
 */
 
 // Variables a utilizar
-$google_plus_contact	=	of_get_option( 'google_plus_contact', '' );
 $facebook_contact		=	of_get_option( 'facebook_contact', '' );
 $twitter_contact		=	of_get_option( 'twitter_contact', '' );
 $linkedin_contact		=	of_get_option( 'linkedin_contact', '' );
-$github_contact			=	of_get_option( 'github_contact', '' );
-$add_this_script		=	of_get_option( 'add_this_script', '');
+$instagram_contact		=	of_get_option( 'instagram_contact', '' );
 $google_analitycs		=	of_get_option( 'google_analitycs', '');
 
 // Acá van las cuatro sidebar del footer.
-$skype_contact		=	of_get_option( 'skype_contact', '');
 $telefono_fijo		=	of_get_option( 'telefono_fijo', '' );
 $telefono_celular	=	of_get_option( 'telefono_celular', '' );
 $direccion_web		=	of_get_option( 'direccion_web', '' );
@@ -37,26 +34,27 @@ $email_contact		=	of_get_option( 'email_contact', '' );
 			<!-- Redes sociales -->
 			<div class="footer__redes_sociales">
 				<ul class="footer__redes_sociales__list">
-					<?php if ( $google_plus_contact )
-					{
-						echo '<li class="footer__redes_sociales__list__item"><a target="_blank" class="icon-google-plus" href="//' . $google_plus_contact . '" title="Google+"></a></li>';
-					};
+					<?php
 					if ( $facebook_contact )
 					{
-						echo '<li class="footer__redes_sociales__list__item"><a target="_blank" class="icon-facebook" href="' . $facebook_contact . '" title="Facebook"></a></li>';
+						echo '<li class="footer__redes_sociales__list__item"><a target="_blank" class="icon-facebook" href="//' . $facebook_contact . '" title="Facebook"></a></li>';
+					};
+					if ( $linkedin_contact )
+					{
+						echo '<li class="footer__redes_sociales__list__item"><a target="_blank" class="icon-linkedin" href="//' . $linkedin_contact . '" title="LinkedIn"></a></li>';
+					};
+					if ( $instagram_contact )
+					{
+						echo '<li class="footer__redes_sociales__list__item"><a target="_blank" class="icon-instagram" href="//www.instagram.com/' . $instagram_contact . '" title="Instagram"></a></li>';
 					};
 					if ( $twitter_contact )
 					{
 						echo '<li class="footer__redes_sociales__list__item"><a target="_blank" class="icon-twitter" href="//' . $twitter_contact . '" title="Twitter"></a></li>';
-					};
-					if ( $github_contact )
-					{
-						echo '<li class="footer__redes_sociales__list__item"><a target="_blank" class="icon-github" href="//' . $github_contact . '" title="GitHub"></a></li>';
 					};?>
 
-					<!-- <li class="footer__redes_sociales__list__item">
-						<a href="<?php //bloginfo('rss2_url');?>" title="RSS" class="icon-rss"></a>
-					</li> -->
+					<li class="footer__redes_sociales__list__item">
+						<a href="<?php bloginfo('rss2_url');?>" title="RSS" class="icon-rss"></a>
+					</li>
 				</ul>
 			</div>
 
